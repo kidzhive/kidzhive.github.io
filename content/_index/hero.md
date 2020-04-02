@@ -4,31 +4,30 @@ fragment = "hero"
 date = "2016-09-07"
 weight = 50
 background = "light" # can influence the text color
-particles = true
+#particles = true
 
-title = "Syna Theme"
-subtitle = "Showcase your next project"
+title = "KidzHive Video"
+subtitle = "From Parents for Parents"
 
 [header]
-  image = "header.jpg"
+  image = "header.png"
+  height = "200px"
 
 [asset]
-  image = "logo.svg"
-  width = "500px" # optional - will default to image width
+  image = "kidzhive_logo.png"
+  width = "144px" # optional - will default to image width
   #height = "150px" # optional - will default to image height
 
 [[buttons]]
-  text = "Button"
-  url = "#"
+  text = "Free Version"
+  url = "free-version"
   color = "info" # primary, secondary, success, danger, warning, info, light, dark, link - default: primary
 
 [[buttons]]
-  text = "Download"
-  url = "https://github.com/okkur/syna/releases"
+  text = "Pro Version"
+  url = "pro-version"
   color = "primary"
 
-[[buttons]]
-  text = "Button"
-  url = "#"
-  color = "success"
 +++
+
+This is some message
